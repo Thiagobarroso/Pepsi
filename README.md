@@ -1,8 +1,8 @@
-# PROJETO PESSOAL SITE INSTITUCIONAL PEPSI
-Projeto pessoal para estudo e pratica
+# PROJETO SITE INSTITUCIONAL PEPSI
+Projeto pessoal para estudo e prática.
 
 TECNOLOGIAS UTILIZADAS:
-HTML, CSS E JAVASCRITP
+HTML, CSS E JAVASCRITP.
 
 
 Coloquei uma animação no background da página, quando o usuário clica em uma das latas muda o background e a imagem da lata. como nas imagens abaixo:
