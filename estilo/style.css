@@ -29,7 +29,7 @@ header {
   align-items: center;
 }
 
-header.logo {
+header .logo {
   position: relative;
   max-width: 80px;
 }
@@ -180,4 +180,69 @@ header ul li a:hover{
   transform: translateY(-50%);
 }
 
+@media (max-width: 600px){
+  header ul {
+    display: none;
+  }
 
+  section {
+    padding: 20px;
+  }
+
+  header {
+    padding: 20px 10px;
+  }
+
+  header .logo {
+    position: relative;
+    max-width: 40px;
+  }
+
+  .content .textBox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 4px 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    
+  }
+  
+
+  .sci {
+    display: none;
+  }
+
+  .content .imgBox {
+    margin-top: 80px;
+    padding-right: 0;
+    }
+
+  .content .imgBox img {
+    max-width: 150px;
+  }
+
+  .content {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .content .textBox p {
+    font-size: 12px;
+  }  
+
+  .content .textBox h2 {
+    margin-top: 50px;
+    color: #fff;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  
+}
